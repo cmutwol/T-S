@@ -2,9 +2,16 @@
     <div class="products">
         <div class="row">
             <div class="col-md-3">
-                <h4 class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="text-muted">Brands</span>
-                </h4>
+                <!--<h4 class="d-flex justify-content-between align-items-center mb-3">-->
+                    <!--<span class="text-muted">Brands</span>-->
+                <!--</h4>-->
+                <div class="form-group">
+                    <label>Filter Products</label>
+                    <select class="form-control">
+                        <option>Brand</option>
+                        <option>Category</option>
+                    </select>
+                </div>
                 <ul class="list-group mb-3">
                     <li class="list-group-item d-flex justify-content-between lh-condensed">
                         <div>
@@ -93,3 +100,22 @@
         </div>
     </div>
 </template>
+<style lang="scss">
+    select {
+        background-image:
+                linear-gradient(45deg, #fb606000 50%, #b6b8ba 60%),
+                linear-gradient(135deg, #b6b8ba 40%, transparent 50%) !important;
+                /*linear-gradient(45deg, transparent 50%, red 60%),*/
+                /*linear-gradient(135deg, red 40%, transparent 50%) !important;*/
+        background-position:
+                calc(100% - 30px) 14px,
+                calc(100% - 20px) 14px,
+                100% 0;
+        background-size:
+                10px 10px,
+                10px 10px;
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+</style>
