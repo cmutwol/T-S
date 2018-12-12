@@ -1,0 +1,55 @@
+/* nunito-sans-300 - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito Sans Light'), local('NunitoSans-Light'),
+  url('~@/styles/fonts/nunito-sans-v3-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("~@/styles/fonts/nunito-sans-v3-latin-300.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* nunito-sans-regular - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
+  url('~@/styles/fonts/nunito-sans-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('~@/styles/fonts/nunito-sans-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* nunito-sans-600 - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
+  url('~@/styles/fonts/nunito-sans-v3-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('~@/styles/fonts/nunito-sans-v3-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* atma-300 - latin */
+@font-face {
+  font-family: 'Atma';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Atma Light'), local('Atma-Light'),
+  url('~@/styles/fonts/atma-v3-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('~@/styles/fonts/atma-v3-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* atma-regular - latin */
+@font-face {
+  font-family: 'Atma';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Atma Regular'), local('Atma-Regular'),
+  url('~@/styles/fonts/atma-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('~@/styles/fonts/atma-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* atma-600 - latin */
+@font-face {
+  font-family: 'Atma';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Atma SemiBold'), local('Atma-SemiBold'),
+  url('~@/styles/fonts/atma-v3-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('~@/styles/fonts/atma-v3-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
