@@ -4192,6 +4192,11 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
+ionicons@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.5.0.tgz#f648aedb4220aa08f44791b01e6467b9de27b609"
+  integrity sha512-nNkS/0wmPcW4Lbg+NqivlOl14BGKKpaZZzZVQzH63MuZZvuu5u8F/JCwcUYiPOAYGp02w0UaDL/slz+HZOuB3Q==
+
 ip-regex@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
@@ -7920,6 +7925,11 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-analytics@^5.16.1:
+  version "5.16.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.16.1.tgz#2fa909a245e1cee9993a69f0b72caf1dd6126c10"
+  integrity sha512-3gnS0c9lxS7+eOtzEPZKZHgWur+qSFLsM+ZIXgPOGPBLfG4mIttT18RJROEozQ+qrCRmqnSCj/dgyg6FxVMM0A==
 
 vue-cli-plugin-style-resources-loader@^0.1.3:
   version "0.1.3"
